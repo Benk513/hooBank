@@ -2,7 +2,7 @@ import styles from './style.js'
 import {Navbar, Hero,Business, Billing, Stats, CTA, CardDeal, Footer,Testimonials,Clients} from './components'
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    {/* Header */}
+    {/* Header */}²
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}><Navbar/></div>
     </div>
