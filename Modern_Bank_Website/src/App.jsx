@@ -1,5 +1,6 @@
 import styles from './style.js'
 import {Navbar, Hero,Business, Billing, Stats, CTA, CardDeal, Footer,Testimonials,Clients} from './components'
+import Customer from './features/customers/Customer.jsx'
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     {/* Header */}²
@@ -22,7 +23,8 @@ const App = () => (
         <Billing/>
         <CardDeal/> 
         <Testimonials/> 
-        <Clients/> 
+        <Clients /> 
+        <Customer/>
         <CTA/> 
         <Footer/> 
 
